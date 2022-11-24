@@ -16,10 +16,10 @@
     <title>Base Apparel coming soon page</title>
   </head>
   <body>
-    <div class="page-container">
+    <img class="logo" src="./images/logo.svg" />
+    <section class="page-container">
       <div class="page-info">
-        <img class="logo" src="./images/logo.svg" />
-        <h1>
+        <h1 class="coming-soon">
           <span>W E ' R E</span><span>C O M I N G</span>S O O N<span></span>
         </h1>
         <p class="page-text">
@@ -27,12 +27,22 @@
           Add your email below to stay up-to-date with announcements and our
           launch deals.
         </p>
-        <form>
-          <input type="email" name="email" placeholder="Email Address" />
-          <button>></button>
+        <form novalidate class="email-form">
+          <input
+            class="form-input"
+            type="email"
+            name="email"
+            placeholder="Email Address"
+          />
+          <img class="error-icon" src="./images/icon-error.svg" />
+          <button class="form-button" type="submit">
+            <img src="./images/icon-arrow.svg" alt="submit" />
+          </button>
+          <p class="error-text">Please provide a valid email</p>
         </form>
       </div>
-      <div class="hero-image"><img src="./images/hero-desktop.jpg" /></div>
-    </div>
+      <div class="hero-image"></div>
+    </section>
+    <script src="./index.js"></script>
   </body>
 </html>

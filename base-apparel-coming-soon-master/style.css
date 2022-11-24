@@ -1,50 +1,155 @@
-@import url("@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-size: 16px;
-  margin: 0;
-  padding: 0px;
+  font-family: "Josefin Sans", sans-serif;
+  background: linear-gradient(135deg, hsl(0deg, 0%, 100%), hsl(0deg, 100%, 98%));
+}
+
+.logo {
+  padding: 25px;
 }
 
 .page-container {
   display: flex;
-  width: 100vw;
-  height: 100vh;
+  flex-direction: column-reverse;
+  background-image: linear-gradient(135deg, hsl(0deg, 0%, 100%), hasl(0, 100%, 98%));
 }
 
 .page-info {
   display: flex;
   flex-direction: column;
-  width: 60vw;
-  background: linear-gradient(135deg, hsl(0deg, 0%, 100%), hsl(0deg, 100%, 98%));
+  align-items: center;
 }
-.page-info .logo {
-  width: 15%;
-}
-.page-info h1 {
-  font-size: 60px;
-  display: flex;
-  flex-direction: column;
-}
-.page-info h1 span:first-child {
-  color: hsl(0deg, 36%, 70%);
-  font-weight: 300;
-}
-.page-info h3 {
-  font-size: 20px;
+
+.coming-soon {
   font-weight: 600;
   display: flex;
   flex-direction: column;
+  margin: 30px 0 30px 0;
+  align-items: center;
+  font-size: 45px;
+  color: hsl(0deg, 6%, 24%);
 }
-
-.page-text {
+.coming-soon span:first-child {
+  font-weight: 300;
   color: hsl(0deg, 36%, 70%);
 }
 
-.hero-image {
-  width: 45vw;
+.page-text {
+  width: 400px;
+  display: flex;
+  text-align: center;
+  font-weight: 600;
+  color: hsl(0deg, 36%, 70%);
+  font-size: 18px;
+  margin-bottom: 40px;
+  line-height: 1.5;
 }
 
-.hero-image img {
-  min-width: 100%;
-  min-height: 100%;
+.hero-image {
+  width: 100%;
+  height: 300px;
+  background-image: url(./images/hero-mobile.jpg);
+  background-size: cover;
+  margin-bottom: 30px;
+}
+
+.email-form {
+  position: relative;
+  display: block;
+  height: 60px;
+  margin: 0 auto;
+  width: 400px;
+}
+
+.email-form.error input {
+  border: 2px solid hsl(0deg, 93%, 68%);
+}
+.email-form.error .error-icon {
+  display: block;
+}
+.email-form.error .error-text {
+  display: block;
+}
+
+.form-input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: 1px solid hsl(0deg, 36%, 70%);
+  border-radius: 30px;
+  padding-left: 30px;
+}
+
+.form-input::-moz-placeholder {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  color: hsl(0deg, 36%, 70%);
+  opacity: 0.6;
+}
+
+.form-input:-ms-input-placeholder {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  color: hsl(0deg, 36%, 70%);
+  opacity: 0.6;
+}
+
+.form-input::placeholder {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  color: hsl(0deg, 36%, 70%);
+  opacity: 0.6;
+}
+
+.form-button {
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  border: none;
+  outline: none;
+  color: white;
+  width: 80px;
+  height: 100%;
+  border-radius: 50px;
+  background-image: linear-gradient(135deg, hsl(0deg, 80%, 86%), hsl(0deg, 74%, 74%));
+  box-shadow: 0px 0px 18px 1px rgba(244, 170, 171, 0.5098039216);
+  transition: 0.3s ease box-shadow;
+}
+
+.form-button:hover {
+  background-image: linear-gradient(135deg, hsl(0deg, 80%, 86%), hsla(0deg, 52%, 80%, 0.781));
+  box-shadow: 0px 0px 13px 2px rgba(244, 170, 171, 0.7490196078);
+}
+
+.error-icon {
+  display: inline-block;
+  position: absolute;
+  right: 85px;
+  top: 24%;
+  display: none;
+}
+
+.error-text {
+  position: absolute;
+  left: 35px;
+  top: 70px;
+  font-size: 16px;
+  color: hsl(0deg, 93%, 68%);
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .hero-image {
+    width: 80%;
+    height: 100vh;
+    background-image: url(./images/hero-desktop.jpg);
+  }
 }/*# sourceMappingURL=style.css.map */
