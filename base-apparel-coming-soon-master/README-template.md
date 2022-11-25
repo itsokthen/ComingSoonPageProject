@@ -33,7 +33,8 @@ Users should be able to:
 ### Screenshot
 
 
-![Screenshot 2022-11-24 at 20-32-27 Base Apparel coming soon page](https://user-images.githubusercontent.com/65359505/203894175-13be1cff-e6b2-4619-a298-363f6b2390a6.png)
+![Screenshot 2022-11-24 at 21-25-09 Base Apparel coming soon page](https://user-images.githubusercontent.com/65359505/203894353-e34425f3-35bf-4f05-a56d-0e61b122abcd.png)
+
 ![yfJchPc](https://user-images.githubusercontent.com/65359505/203894194-bedd26a0-5752-4599-8a2a-f99b24f6b016.png)
 
 
