@@ -11,10 +11,7 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -40,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+- Live Site URL: https://itsokthen.github.io/ComingSoonPageProject/
 
 ### Built with
 
@@ -55,6 +52,3 @@ Users should be able to:
 ### What I learned
 
 I added on to my knowledge of creative styling.  I designed the page with a mobile first approach which helped a lot.  I learned how to arrange components different strictly through CSS. I also learned how to create a custom form error response.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
